@@ -6,19 +6,19 @@
                 <kendo-formfield>
                     <kendo-label [for]="username" text="Username"></kendo-label>
                     <input formControlName="username" kendoTextBox #username required />
+                    <kendo-formerror>Error: Username required</kendo-formerror>
                 </kendo-formfield>
                 <kendo-formfield>
                     <kendo-label [for]="password" text="Password"></kendo-label>
                     <input formControlName="password" kendoTextBox #password required />
+                    <kendo-formerror>Error: Password required</kendo-formerror>
                 </kendo-formfield>
-
-                <div>
+                <div class="button-container">
                     <button kendoButton class="login-button" (click)="submitForm()">
                         <kendo-loader *ngIf="loading" size="small"></kendo-loader>
                         Login
                     </button>
                 </div>
-
                 <div class="error-container">
                     <p class="error">{{error}}</p>
                 </div>

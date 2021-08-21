@@ -8,6 +8,10 @@
     top: 0;
 }
 
+h2 {
+    margin-top: 15px;
+}
+
 .login-form-container {
     background-color: white;
     display: flex;
@@ -15,7 +19,6 @@
     justify-content: center;
     flex-direction: column;
     width: 320px;
-    height: 250px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,6 +37,7 @@
 .form {
     display: flex;
     width: 320px;
+    height: 250px;
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
@@ -48,4 +52,15 @@
 
 .error {
     color:red;
+}
+
+.form-field {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.button-container {
+    margin-top: 15px;
+    margin-bottom: 8px;
 }

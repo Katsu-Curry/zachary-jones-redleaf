@@ -39,6 +39,7 @@
     "@progress/kendo-drawing": "^1.11.0",
     "@progress/kendo-licensing": "^1.2.0",
     "@progress/kendo-theme-bootstrap": "^4.41.0",
+    "@progress/kendo-theme-material": "^4.41.0",
     "bootstrap": "^5.1.0",
     "jquery": "^3.6.0",
     "rxjs": "~6.6.0",
