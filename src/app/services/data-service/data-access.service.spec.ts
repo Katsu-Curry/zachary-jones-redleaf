@@ -3,7 +3,7 @@ import { of } from 'rxjs';
 import { take } from 'rxjs/operators';
 import { Mock } from 'ts-mocks';
 
-import { AuthenticationService } from './authentication.service';
+import { AuthenticationService } from '../authentication-service/authentication.service';
 import { DataAccessService } from './data-access.service';
 
 const mockAuth = new Mock<AuthenticationService>({ currentUser$: of('mock@test.org') });
